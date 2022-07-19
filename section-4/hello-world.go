@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
+func HelloWorld() {
+
 	n, _ := fmt.Println("Hello everyone!", 42, true)
 
 	// n, err := fmt.Println("Hello everyone!", 42, true)
