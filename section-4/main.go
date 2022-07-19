@@ -6,4 +6,5 @@ func main() {
 	DeclarationDemo()
 	VarKeyword()
 	ExploringType()
+	FmtPackage()
 }
