@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello everyone!")
+	n, _ := fmt.Println("Hello everyone!", 42, true)
+
+	// n, err := fmt.Println("Hello everyone!", 42, true)
+	// fmt.Println(err)
+
+	fmt.Println(n)
+
 	foo()
 	fmt.Println("something more")
 
