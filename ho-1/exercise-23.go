@@ -19,7 +19,7 @@ func Exercise23() {
 	y = "James Bond"
 	z = true
 	fmt.Println("Exercise 3")
-	fmt.Println("a.")
+	// a
 	s := fmt.Sprintf("%v\t%v\t%v", x, y, z)
 	fmt.Println("b.")
 	fmt.Println(s)
